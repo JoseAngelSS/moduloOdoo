@@ -16,6 +16,7 @@
 #     def _value_pc(self):
 #         for record in self:
 #             record.value2 = float(record.value) / 100
+
 from odoo import models ,fields, api
 
 class departamento(models.Model):
@@ -47,3 +48,5 @@ class proyecto(models.Model):
 	tipoProyecto = fields.Selection(string='Tipo de proyecto', selection=[('f','Front-End'),('b', 'Back-End')], help='Tipo de proyecto al que está destinado')
 	ciudadProyecto = fields.Char(String = 'Ciudad')
 	descripcionProyecto = fields.Text(string='Descripcion del proyecto')
+
+
