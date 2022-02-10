@@ -3,6 +3,9 @@
 <odoo>
     <data>
 
+
+    
+
         <record model="res-groups" id="group_proyectos_role2">
             <field name="name">role2</field>
             <field name="category_id" ref="proyectos.module_category_proyectos"/>
