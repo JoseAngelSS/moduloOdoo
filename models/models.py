@@ -17,7 +17,7 @@
 #         for record in self:
 #             record.value2 = float(record.value) / 100
 
-from odoo import models ,fields, api
+from odoo import models, fields, api
 
 class departamento(models.Model):
 	_name = 'proyectos.departamento'
@@ -45,7 +45,7 @@ class proyecto(models.Model):
 
 	#atributos
 	nombreProyecto = fields.Char(string='Nombre proyecto', required=True)
-	tipoProyecto = fields.Selection(string='Tipo de proyecto', selection=[('f','Front-End'),('b', 'Back-End')], help='Tipo de proyecto al que está destinado')
+	tipoProyecto = fields.Selection(string='Tipo de proyecto', selection=[('f','Front-End'),('b', 'Back-End')], help='Tipo de proyecto al que estï¿½ destinado')
 	ciudadProyecto = fields.Char(String = 'Ciudad')
 	descripcionProyecto = fields.Text(string='Descripcion del proyecto')
 

@@ -3,8 +3,7 @@
     'name': "Gestion y asignacion de proyectos",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        En este modulo podemos asignar diferentes empleados""",
 
     'description': """
         En proceso
