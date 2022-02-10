@@ -19,7 +19,6 @@
 
 from odoo import models, fields, api
 
-# un comentario
 class departamento(models.Model):
 	_name = 'proyectos.departamento'
 	_description = 'Define los atributos de un departamento'
